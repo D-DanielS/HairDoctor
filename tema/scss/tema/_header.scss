@@ -1,0 +1,27 @@
+#header{
+	background: $color1;
+	color: #fff;
+}
+
+.logo{
+	color: #fff;
+	font-weight: 300;
+	font-size: 2em;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	margin: .5em 0 0;
+	span{
+		font-weight: 600;
+		color: $color2;
+	}
+}
+
+ .subtitle{
+ 	font-family: $header--font-family;
+ 	font-weight: 300;
+ 	opacity: .7;
+ 	text-align: center;
+ 	letter-spacing: -0.04em; //Apretar la Letra
+ }

@@ -1,0 +1,19 @@
+.servicio{
+	margin-bottom: 3em;
+	text-align: center;
+	&__img{
+		background: $color1;
+		border-radius: 50%;
+		width: 25%;
+	}
+	&__title{
+		margin: .3em 0;
+
+	}
+	&__description{
+		font-size: 1em;
+		text-align: justify;
+	    margin-top: 1.5em; 
+
+	}
+}
