@@ -17,6 +17,7 @@
 		font-size: 1em;
 		margin-bottom: 0;
 		text-align: justify;
+		color: #fff;
 	}
 	&__button{
 		color: #fff;
@@ -34,3 +35,34 @@
 		}
 	}
 }
+
+
+@include desde(tablet){
+	.copy{
+		color: $color2;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 40%;
+		left: 3em;
+
+		&__title{
+			font: 600;
+			font-size: 2em;
+			font-family: $body--font-family;
+			color: $color1;
+			line-height: 1;
+			span {
+				display: block;
+				font-size: .6em;
+				line-height: 1;
+			}
+		}
+		&__description{
+			text-align: justify;
+			color: $color1;
+		}
+	}
+}
+
+

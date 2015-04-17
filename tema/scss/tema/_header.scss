@@ -1,6 +1,18 @@
 #header{
 	background: $color1;
 	color: #fff;
+
+	@include hasta(tablet){
+		background: $color1;
+	}
+
+	@include desde(tablet){
+		background: linear-gradient( 
+			         $color1 75%,
+			         transparent 75%
+			         )
+	}
+
 }
 
 .logo{
@@ -16,6 +28,11 @@
 		font-weight: 600;
 		color: $color2;
 	}
+
+	@include desde(web){
+		text-align: left;
+		line-height: 1;
+	}
 }
 
  .subtitle{
@@ -24,4 +41,9 @@
  	opacity: .7;
  	text-align: center;
  	letter-spacing: -0.04em; //Apretar la Letra
+ 		@include desde(web){
+		text-align: left;
+		line-height: 1;
+	}
+
  }
