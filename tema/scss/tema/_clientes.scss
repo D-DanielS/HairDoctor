@@ -85,6 +85,18 @@
 	}
 }
 
+// Cuadricula 2x2 en tamaño tablet
+
+#clientes .grupo{
+	@include desde-hasta(tablet, web){
+		text-align: center;
+
+		//(item,columna,separacion)
+		@include cuadricula(caja,2,4){
+		}
+	}
+}
+
 
 
 

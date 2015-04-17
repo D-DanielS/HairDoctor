@@ -38,29 +38,31 @@ html(lang="es")
 
 		section#servicios
 			.grupo
-				.caja
+				.caja.total
 					h2.section-title Services 
 						span What we offer to our clients!
-				.caja
+
+				//- tablet 3 columnas sercicios  
+				.caja.tablet-1-3 
 					.servicio
 						img.servicio__img(src="http://lorempixel.com/640/640") 
 						h3.servicio__title Hair Transplantation
 						p.servicio__description
 							|   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nisi id laborum non, a nemo ipsum sapiente at aliquid nam earum nihil repudiandae natus eligendi obcaecati voluptatum. Ab consectetur, quia! 
-				
-				.caja
+				//- tablet 3 columnas sercicios  
+				.caja.tablet-1-3   
 					.servicio
 						img.servicio__img(src="http://lorempixel.com/640/640") 
 						h3.servicio__title Medical Treatments
 						p.servicio__description
 							|   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat tempore asperiores, ea iure recusandae ipsa illo alias eius possimus inventore repellat sit autem, facilis dignissimos quam magnam ab, esse distinctio.
-
-				.caja
+				//- tablet 3 columnas sercicios
+				.caja.tablet-1-3  
 					.servicio
 						img.servicio__img(src="http://lorempixel.com/640/640") 
 						h3.servicio__title Eyebrow Transplantation
 						p.servicio__description
-							|   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, maxime repellat quae unde, quibusdam obcaecati ullam eum ipsa expedita nam adipisci, laudantium tempora eos magni! Nihil molestias quis, unde earum.
+							|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sequi cupiditate ducimus non, animi ipsam cumque sed voluptatem, asperiores eos recusandae. Aperiam id maiores commodi at, ea doloremque.
 
 		section#clientes
 			.grupo
@@ -95,7 +97,8 @@ html(lang="es")
 
 		section#noticias
 			.grupo
-				.caja
+				//- 3 columnas desde tablet
+				.caja.tablet-1-3
 					.noticia
 						h3.noticia__title Hair Transplants 
 							span Vestibulum lacults 
@@ -103,15 +106,17 @@ html(lang="es")
 						p.noticia__description
 							|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis perferendis voluptate ex eum reprehenderit harum ducimus dolorum, magni porro alias iusto deleniti magnam, libero quas, beatae aperiam earum ipsam.
 							
-
-				.caja
+				//- 3 columnas desde tablet
+				.caja.tablet-1-3
 					.noticia
 						h3.noticia__title Women's hair loss 
 							span Vestibulum lacults 
 						img.noticia__img(src="http://lorempixel.com/600/400")
 						p.noticia__description
 							|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis perferendis voluptate ex eum reprehenderit harum ducimus dolorum, magni porro alias iusto deleniti magnam, libero quas, beatae aperiam earum ipsam.
-				.caja
+				
+				//- 3 columnas desde tablet
+				.caja.tablet-1-3
 					.noticia
 						h3.noticia__title Men's hair loss
 							span Vestibulum lacults 
@@ -122,17 +127,19 @@ html(lang="es")
 
 		section#footer
 			.grupo
-				.caja
+				//-Pone las dos cosas a los lados.
+				.caja.tablet-50
 					p.creditos
 						| Hair Doctor &copy; 2014 | Privace Policy 
-
-				.caja
+			
+				//-Pone las dos cosas a los lados.
+				.caja.tablet-50
 					.sociales
-						a(href="#").sociales__item
-						a(href="#").sociales__item 
-						a(href="#").sociales__item
-						a(href="#").sociales__item
-						a(href="#").sociales__item
+						a(href="#").sociales__item.icon-facebook
+						a(href="#").sociales__item.icon-twitter 
+						a(href="#").sociales__item.icon-youtube
+						a(href="#").sociales__item.icon-linkedin
+						a(href="#").sociales__item.icon-rss
 
 
 

@@ -1,0 +1,22 @@
+.sociales{
+	text-align: center;
+
+	&__item{
+		font-size: 1.45em;
+		color: $color1;
+		background: darken($color1,13%);
+		border-radius: 50%;
+		display: inline-block;
+		margin: .25em;
+		padding: .15em;
+		transition: all 2.5s ;
+
+		&:hover{
+			color: #fff;
+		}
+		
+		#footer & {
+			margin-top: 0;
+		}
+	}	
+}

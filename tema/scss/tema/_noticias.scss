@@ -1,6 +1,9 @@
 .noticia{
 	&__img{
-		margin-bottom: 1em;
+		display: block;			//centra Imagen 
+		margin: 0 auto 1em ; 	// en tablet
+
+
 
 	}
 	&__title{

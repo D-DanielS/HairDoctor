@@ -5,6 +5,13 @@
 		background: $color1;
 		border-radius: 50%;
 		width: 35%;
+		
+		// Ajusta Tamaño de img desde tablet
+		@include desde(tablet){
+			margin-bottom: 1em;
+			width: 48%;
+		}
+
 	}
 	&__title{
 		margin: .3em 0;
