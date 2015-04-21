@@ -17,10 +17,10 @@
 		font-size: 1em;
 		margin-bottom: 0;
 		text-align: justify;
-		color: #fff;
+		color: $color-blanco;
 	}
 	&__button{
-		color: #fff;
+		color: $color-blanco;
 		background: linear-gradient(
 			         darken($color1, 10%),
 			         darken($color1, 20%)
@@ -31,7 +31,10 @@
 		margin:.5em 0;
 		padding:0 1em;
 		&:hover{
-			color: $color2;
+			color: saturate($color2,10%);
+			transition: all 1s ;
+			
+
 		}
 	}
 }

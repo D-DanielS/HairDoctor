@@ -40,21 +40,21 @@
 
 			&--prev{
 				float: left;
-				background: $color1;
+				background: saturate($color1,20%);
 
 				&:before {
-					border-right: 6px solid #fff;
+					border-right: 6px solid $color-blanco;
 					border-top: 6px solid transparent;
 					border-bottom: 6px solid transparent;
 				}
 
 			}
 			&--next{
-				background: $color2;
+				background: darken($color2,20%);
 				float: right;
 
 				&:before {
-					border-left: 6px solid #fff;
+					border-left: 6px solid $color-blanco;
 					border-top: 6px solid transparent;
 					border-bottom: 6px solid transparent;
 				}

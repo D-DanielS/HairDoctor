@@ -1,6 +1,6 @@
 #header{
 	background: $color1;
-	color: #fff;
+	color: $color-blanco;
 
 	@include hasta(tablet){
 		background: $color1;
@@ -16,7 +16,7 @@
 }
 
 .logo{
-	color: #fff;
+	color: $color-blanco;
 	font-weight: 300;
 	font-size: 2em;
 	font-family: 'Open Sans';
@@ -26,7 +26,7 @@
 	margin: .5em 0 0;
 	span{
 		font-weight: 600;
-		color: $color2;
+		color: saturate($color2,24%);
 	}
 
 	@include desde(web){

@@ -5,12 +5,13 @@
 // VARIABLES DEL TEMA
 
 	// PALETA DE COLOR
-		$color1 : #547169;  // Verde
+		$color1 : #212429;  // Gris Oscuro
 		$color2 : #FDE06B;  // Amarillo
-		$color3 : #585759;  // Gris (Textos)
+		$color3 : #333740;  // Gris (Textos)
+		$color-blanco: #fff; 
 
 	// ESTILOS BASE
-		$body--background  : #fff; // fondo para el body
+		$body--background  : $color-blanco; // fondo para el body
 		$body--font-family : 'Open Sans' , sans-serif; // fuente predeterminada
 		$body--color       : #333; // color de texto predeterminado
 
